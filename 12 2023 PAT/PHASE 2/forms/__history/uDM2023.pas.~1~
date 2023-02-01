@@ -1,0 +1,33 @@
+unit uDM2023;
+
+interface
+
+uses
+  SysUtils, Classes, ImgList, Controls, Dialogs, ADODB, DB;
+
+type
+  TDM2023 = class(TDataModule)
+    conn: TADOConnection;
+    tblTitleLists: TADOTable;
+    tblSubcribers: TADOTable;
+    tblCategoryLists: TADOTable;
+    tblProductLists: TADOTable;
+    tblProducts: TADOTable;
+    query: TADOQuery;
+    dlgOpen: TOpenDialog;
+    dlgSave: TSaveDialog;
+    imgIcons: TImageList;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  DM2023: TDM2023;
+
+implementation
+
+{$R *.dfm}
+
+end.

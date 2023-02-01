@@ -1,0 +1,93 @@
+object DM2023: TDM2023
+  OldCreateOrder = False
+  Height = 248
+  Width = 513
+  object conn: TADOConnection
+    Connected = True
+    ConnectionString = 
+      'Provider=MSDASQL.1;Persist Security Info=False;Extended Properti' +
+      'es="DSN=MS Access Database;DBQ=..\data\data.mdb;DefaultDir=C:\Us' +
+      'ers\PearlG.HHSCOZA\Desktop\12 2023\PHASE 2\data;DriverId=25;FIL=' +
+      'MS Access;MaxBufferSize=2048;PageTimeout=5;UID=admin;"'
+    LoginPrompt = False
+    Left = 24
+    Top = 16
+  end
+  object tblTitleLists: TADOTable
+    Active = True
+    Connection = conn
+    CursorType = ctStatic
+    TableName = 'titleLists'
+    Left = 184
+    Top = 72
+  end
+  object tblSubcribers: TADOTable
+    Active = True
+    Connection = conn
+    CursorType = ctStatic
+    TableName = 'subcribers'
+    Left = 184
+    Top = 16
+  end
+  object tblCategoryLists: TADOTable
+    Active = True
+    Connection = conn
+    CursorType = ctStatic
+    TableName = 'categoryLists'
+    Left = 96
+    Top = 128
+  end
+  object tblProductLists: TADOTable
+    Active = True
+    Connection = conn
+    CursorType = ctStatic
+    TableName = 'productLists'
+    Left = 96
+    Top = 72
+  end
+  object tblProducts: TADOTable
+    Active = True
+    Connection = conn
+    CursorType = ctStatic
+    TableName = 'products'
+    Left = 96
+    Top = 16
+  end
+  object query: TADOQuery
+    Parameters = <>
+    Left = 264
+    Top = 24
+  end
+  object dlgOpen: TOpenDialog
+    Left = 464
+    Top = 24
+  end
+  object dlgSave: TSaveDialog
+    Left = 464
+    Top = 80
+  end
+  object imgIcons: TImageList
+    Height = 32
+    Width = 32
+    Left = 464
+    Top = 136
+  end
+  object popReception_Subscribers: TPopupMenu
+    Left = 88
+    Top = 192
+  end
+  object popReception_Products: TPopupMenu
+    Left = 216
+    Top = 192
+  end
+  object dsProducts: TDataSource
+    DataSet = tblProducts
+    Left = 328
+    Top = 24
+  end
+  object dsSubscribers: TDataSource
+    DataSet = tblSubcribers
+    Left = 328
+    Top = 96
+  end
+end

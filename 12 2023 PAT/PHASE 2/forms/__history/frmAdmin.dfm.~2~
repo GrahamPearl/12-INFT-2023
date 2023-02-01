@@ -1,0 +1,73 @@
+object fmAdmin: TfmAdmin
+  Left = 0
+  Top = 0
+  Caption = 'Admin'
+  ClientHeight = 371
+  ClientWidth = 592
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  Menu = MainMenu1
+  OldCreateOrder = False
+  Position = poDesktopCenter
+  WindowState = wsMaximized
+  PixelsPerInch = 96
+  TextHeight = 13
+  object dashboard: TWebBrowser
+    Left = 0
+    Top = 0
+    Width = 592
+    Height = 352
+    Align = alClient
+    TabOrder = 0
+    ExplicitLeft = 96
+    ExplicitTop = 96
+    ExplicitWidth = 300
+    ExplicitHeight = 150
+    ControlData = {
+      4C0000002F3D0000612400000000000000000000000000000000000000000000
+      000000004C000000000000000000000001000000E0D057007335CF11AE690800
+      2B2E126208000000000000004C0000000114020000000000C000000000000046
+      8000000000000000000000000000000000000000000000000000000000000000
+      00000000000000000100000000000000000000000000000000000000}
+  end
+  object StatusBar1: TStatusBar
+    Left = 0
+    Top = 352
+    Width = 592
+    Height = 19
+    Panels = <>
+    ExplicitWidth = 447
+  end
+  object MainMenu1: TMainMenu
+    Left = 160
+    Top = 24
+    object File1: TMenuItem
+      Caption = '&File'
+      object N1: TMenuItem
+        Caption = '-'
+      end
+      object Close1: TMenuItem
+        Caption = '&Close'
+      end
+    end
+    object Views1: TMenuItem
+      Caption = 'Views'
+      object Products1: TMenuItem
+        Caption = 'Products'
+      end
+      object Subscribers1: TMenuItem
+        Caption = 'Subscribers'
+      end
+    end
+  end
+  object imgIcons: TImageList
+    Height = 32
+    Width = 32
+    Left = 160
+    Top = 72
+  end
+end

@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2022/12/02 09:54:22.581.pas,C:\Users\PearlG.HHSCOZA\OneDrive - Hillcrest High School\Documents\RAD Studio\Projects\Unit2.pas=C:\Users\PearlG.HHSCOZA\Desktop\12 2023\PHASE 2\forms\frmLoader.pas</Transaction>
+    <Transaction>2022/12/02 09:54:22.581.dfm,C:\Users\PearlG.HHSCOZA\OneDrive - Hillcrest High School\Documents\RAD Studio\Projects\Unit2.dfm=C:\Users\PearlG.HHSCOZA\Desktop\12 2023\PHASE 2\forms\frmLoader.dfm</Transaction>
+    <Transaction>2022/12/02 09:55:31.355.dproj,C:\Users\PearlG.HHSCOZA\OneDrive - Hillcrest High School\Documents\RAD Studio\Projects\Project2.dproj=C:\Users\PearlG.HHSCOZA\Desktop\12 2023\PHASE 2\PAT2023Teacher.dproj</Transaction>
+    <Transaction>2022/12/02 10:22:47.236.pas,C:\Users\PearlG.HHSCOZA\Desktop\12 2023\PHASE 2\Unit1.pas=C:\Users\PearlG.HHSCOZA\Desktop\12 2023\PHASE 2\forms\frmAdmin.pas</Transaction>
+    <Transaction>2022/12/02 10:22:47.236.dfm,C:\Users\PearlG.HHSCOZA\Desktop\12 2023\PHASE 2\Unit1.dfm=C:\Users\PearlG.HHSCOZA\Desktop\12 2023\PHASE 2\forms\frmAdmin.dfm</Transaction>
+    <Transaction>2022/12/02 10:23:33.763.pas,C:\Users\PearlG.HHSCOZA\Desktop\12 2023\PHASE 2\Unit3.pas=C:\Users\PearlG.HHSCOZA\Desktop\12 2023\PHASE 2\forms\frmSubscriber.pas</Transaction>
+    <Transaction>2022/12/02 10:23:33.763.dfm,C:\Users\PearlG.HHSCOZA\Desktop\12 2023\PHASE 2\Unit3.dfm=C:\Users\PearlG.HHSCOZA\Desktop\12 2023\PHASE 2\forms\frmSubscriber.dfm</Transaction>
+    <Transaction>2022/12/02 10:24:01.221.pas,C:\Users\PearlG.HHSCOZA\Desktop\12 2023\PHASE 2\forms\frmLoader.pas=C:\Users\PearlG.HHSCOZA\Desktop\12 2023\PHASE 2\forms\frmReception.pas</Transaction>
+    <Transaction>2022/12/02 10:24:01.221.dfm,C:\Users\PearlG.HHSCOZA\Desktop\12 2023\PHASE 2\forms\frmLoader.dfm=C:\Users\PearlG.HHSCOZA\Desktop\12 2023\PHASE 2\forms\frmReception.dfm</Transaction>
+    <Transaction>2022/12/02 10:24:59.901.pas,C:\Users\PearlG.HHSCOZA\Desktop\12 2023\PHASE 2\forms\frmReception.pas=C:\Users\PearlG.HHSCOZA\Desktop\12 2023\PHASE 2\forms\frmLoader.pas</Transaction>
+    <Transaction>2022/12/02 10:24:59.901.dfm,C:\Users\PearlG.HHSCOZA\Desktop\12 2023\PHASE 2\forms\frmReception.dfm=C:\Users\PearlG.HHSCOZA\Desktop\12 2023\PHASE 2\forms\frmLoader.dfm</Transaction>
+    <Transaction>2022/12/02 10:25:07.219.pas,C:\Users\PearlG.HHSCOZA\Desktop\12 2023\PHASE 2\Unit4.pas=C:\Users\PearlG.HHSCOZA\Desktop\12 2023\PHASE 2\forms\frmReception.pas</Transaction>
+    <Transaction>2022/12/02 10:25:07.219.dfm,C:\Users\PearlG.HHSCOZA\Desktop\12 2023\PHASE 2\Unit4.dfm=C:\Users\PearlG.HHSCOZA\Desktop\12 2023\PHASE 2\forms\frmReception.dfm</Transaction>
+    <Transaction>2022/12/02 11:12:52.395.pas,C:\Users\PearlG.HHSCOZA\Desktop\12 2023\PHASE 2\Unit1.pas=C:\Users\PearlG.HHSCOZA\Desktop\12 2023\PHASE 2\forms\uDM2023.pas</Transaction>
+    <Transaction>2022/12/02 11:12:52.395.dfm,C:\Users\PearlG.HHSCOZA\Desktop\12 2023\PHASE 2\Unit1.dfm=C:\Users\PearlG.HHSCOZA\Desktop\12 2023\PHASE 2\forms\uDM2023.dfm</Transaction>
+  </Transactions>
+	<ProjectSortOrder AutoSort="0" SortType="0">
+    <File Path="forms"/>
+    <File Path="forms\frmAdmin.pas"/>
+    <File Path="forms\frmAdmin.dfm"/>
+    <File Path="forms\frmLoader.pas"/>
+    <File Path="forms\frmLoader.dfm"/>
+    <File Path="forms\frmReception.pas"/>
+    <File Path="forms\frmReception.dfm"/>
+    <File Path="forms\frmSubscriber.pas"/>
+    <File Path="forms\frmSubscriber.dfm"/>
+    <File Path="forms\uDM2023.pas"/>
+    <File Path="forms\uDM2023.dfm"/>
+  </ProjectSortOrder>
+</BorlandProject>

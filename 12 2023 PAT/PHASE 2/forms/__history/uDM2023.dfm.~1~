@@ -1,0 +1,53 @@
+object DM2023: TDM2023
+  OldCreateOrder = False
+  Height = 248
+  Width = 513
+  object conn: TADOConnection
+    Left = 32
+    Top = 24
+  end
+  object tblTitleLists: TADOTable
+    Connection = conn
+    Left = 184
+    Top = 72
+  end
+  object tblSubcribers: TADOTable
+    Connection = conn
+    Left = 184
+    Top = 16
+  end
+  object tblCategoryLists: TADOTable
+    Connection = conn
+    Left = 96
+    Top = 128
+  end
+  object tblProductLists: TADOTable
+    Connection = conn
+    Left = 96
+    Top = 72
+  end
+  object tblProducts: TADOTable
+    Connection = conn
+    Left = 96
+    Top = 16
+  end
+  object query: TADOQuery
+    Parameters = <>
+    Left = 264
+    Top = 24
+  end
+  object dlgOpen: TOpenDialog
+    Left = 368
+    Top = 24
+  end
+  object dlgSave: TSaveDialog
+    Left = 368
+    Top = 104
+  end
+  object imgIcons: TImageList
+    Height = 32
+    Width = 32
+    Left = 360
+    Top = 176
+  end
+end

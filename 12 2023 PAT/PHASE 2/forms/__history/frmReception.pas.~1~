@@ -1,0 +1,44 @@
+unit frmReception;
+
+interface
+
+uses
+  Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
+  Dialogs, Menus, ComCtrls, ToolWin, ImgList, ExtCtrls, DBCtrls, StdCtrls,
+  Grids, DBGrids;
+
+type
+  TfmReception = class(TForm)
+    pgMain: TPageControl;
+    tablSubscribers: TTabSheet;
+    tabProducts: TTabSheet;
+    imgIcons: TImageList;
+    MainMenu1: TMainMenu;
+    ToolBar1: TToolBar;
+    StatusBar1: TStatusBar;
+    File1: TMenuItem;
+    N1: TMenuItem;
+    Close1: TMenuItem;
+    Products1: TMenuItem;
+    Subscribers1: TMenuItem;
+    Views1: TMenuItem;
+    dbViewProducts: TDBGrid;
+    GroupBox1: TGroupBox;
+    dbNavProducts: TDBNavigator;
+    GroupBox2: TGroupBox;
+    dbNavSubscribers: TDBNavigator;
+    dbViewSubscribers: TDBGrid;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  fmReception: TfmReception;
+
+implementation
+
+{$R *.dfm}
+
+end.

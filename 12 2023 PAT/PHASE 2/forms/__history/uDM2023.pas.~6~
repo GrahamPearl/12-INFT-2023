@@ -1,0 +1,58 @@
+unit uDM2023;
+
+interface
+
+uses
+  SysUtils, Classes, ImgList, Controls, Dialogs, ADODB, DB, Menus;
+
+type
+  TDM2023 = class(TDataModule)
+    conn: TADOConnection;
+    tblTitleLists: TADOTable;
+    tblSubcribers: TADOTable;
+    tblCategoryLists: TADOTable;
+    tblProductLists: TADOTable;
+    tblProducts: TADOTable;
+    query: TADOQuery;
+    dlgOpen: TOpenDialog;
+    dlgSave: TSaveDialog;
+    imgIcons: TImageList;
+    popReception_Subscribers: TPopupMenu;
+    popReception_Products: TPopupMenu;
+    dsProducts: TDataSource;
+    dsSubscribers: TDataSource;
+    procedure DataModuleCreate(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  DM2023: TDM2023;
+
+implementation
+
+{$R *.dfm}
+
+procedure TDM2023.DataModuleCreate(Sender: TObject);
+var tf : Textfile;
+ aLine : String;
+
+begin
+  AssignFile(tf,'Settings.txt');
+       Reset(tf);
+      ReadLN(tf,aLine);
+   CloseFile(tf);
+
+  self.conn.Connected := False;
+  self.conn.ConnectionString := aLine;
+  self.conn.Connected := True;
+  self.tblTitleLists.Active := True;
+  self.tblSubcribers.Active := True;
+  self.tblCategoryLists.Active := True;
+  self.tblProductLists.Active := True;
+  self.tblProducts.Active := True;
+end;
+
+end.
